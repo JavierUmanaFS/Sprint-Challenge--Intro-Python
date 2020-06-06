@@ -41,8 +41,11 @@ vehicles = [
 
 # TODO
 
-groundVehicle = GroundVehicle()
-print(groundVehicle.drive())
+# groundVehicle = GroundVehicle()
+# print(groundVehicle.drive())
 
-motorcycle = Motorcycle()
-print(motorcycle.drive())
+# motorcycle = Motorcycle()
+# print(motorcycle.drive())
+
+for i in vehicles:
+    print(i.drive())
